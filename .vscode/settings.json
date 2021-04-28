@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "logrocon"
+    ],
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.exportType": "html",
+    "markdown.marp.themes": [
+        "marp-process\\assets\\theme\\logrocon.css"
+    ]
+}

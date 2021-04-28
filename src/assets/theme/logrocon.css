@@ -1,0 +1,87 @@
+/*!
+ * Marp Logrocon theme.
+ *
+ * @theme logrocon
+ * @author Ilya Zverev
+ *
+ * @auto-scaling true
+ * @size 4:3 960px 720px
+ * @size 16:9 1280px 720px
+ */
+
+@import 'default';
+
+@font-face {
+
+    font-family: 'Montserrat ExtraBold';
+    src: url("./assets/theme/fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+         url("./assets/theme/fonts/Montserrat-ExtraBold.woff") format("woff");
+
+}
+
+@font-face {
+
+    font-family: 'Montserrat SemiBold';
+    src: url('./assets/theme/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+         url('./assets/theme/fonts/Montserrat-SemiBold.woff')  format('woff');
+
+}
+
+@font-face {
+
+    font-family: 'Montserrat Medium';
+    src: url('./assets/theme/fonts/Montserrat-Medium.woff2') format('woff2'),
+         url('./assets/theme/fonts/Montserrat-Medium.woff')  format('woff');
+
+}
+
+@font-face {
+
+    font-family: 'Montserrat Regular';
+    src: url('./assets/theme/fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('./assets/theme/fonts/Montserrat-Regular.woff') format('woff');
+
+}
+
+@font-face {
+
+    font-family: 'Montserrat Light';
+    src: url('./assets/theme/fonts/Montserrat-Light.woff2') format('woff2'),
+         url('./assets/theme/fonts/Montserrat-Light.woff') format('woff');
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat SemiBold';
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat SemiBold';
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat Light';
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Montserrat Light';
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Montserrat Light';
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Montserrat Light';
+}
+
+p {
+  text-align: center;
+  font-family: 'Montserrat Light';
+}
